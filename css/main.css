@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'AR One Sans', sans-serif;
+  font-family: "AR One Sans", sans-serif;
 }
 #body {
   max-width: 1000px;
@@ -183,7 +183,8 @@ img {
   font-variant-caps: all-petite-caps;
   font-family: "Lato", sans-serif;
 }
-.education h2, li {
+.education h2,
+li {
   font-size: 1.3rem;
   font-family: "Lato", sans-serif;
 }
@@ -205,6 +206,11 @@ img {
   justify-content: space-around;
   flex-wrap: wrap;
   font-size: 15px;
+}
+.cards-container a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 .cards {
   width: 20vh;
