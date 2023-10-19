@@ -154,7 +154,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
   list-style-type: none;
 }
 .contact-subtitle img {
@@ -183,10 +183,11 @@ img {
   font-variant-caps: all-petite-caps;
   font-family: "Lato", sans-serif;
 }
-.education h2,
+.education h3,
 li {
   font-size: 1.3rem;
   font-family: "Lato", sans-serif;
+  line-height: 33px;
 }
 .education a {
   color: white;
@@ -238,7 +239,6 @@ li {
 .content2 {
   background-color: #1e6091;
 }
-
 .content3 {
   background-color: #34a0a4;
 }
@@ -299,6 +299,10 @@ li {
     gap: 10px;
     justify-items: center;
     align-content: center;
+  }
+  .content1 a,
+  .content2 a {
+    bottom: 295px;
   }
 }
 
