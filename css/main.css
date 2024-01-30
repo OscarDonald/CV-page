@@ -40,14 +40,13 @@ img {
 .list-item a {
   display: flex;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: rgb(240, 240, 240);
   font-family: "Lato", sans-serif;
   margin: 20px;
   font-weight: 800;
   transition: transform 0.3s;
 }
-
 .list-item a:hover {
   color: #00d3cf;
   transform: scale(1.2);
@@ -60,13 +59,7 @@ img {
 .list-item a#current {
   color: #00d3cf;
   transform: scale(1.2);
-}
-.list-item i {
-  display: flex;
-  align-self: center;
-  font-size: 1.1rem;
-  transition: transform 0.3s;
-  margin-right: 0.5em;
+  text-decoration: underline;
 }
 
 /* ARTICLE */
